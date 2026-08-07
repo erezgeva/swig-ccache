@@ -13,9 +13,9 @@ on:
       - '**/*.adoc'
       - '**/*.bash'
       - '**/*.md'
-  schedule:
-    # Full scan once a week
-    - cron: '0 14 * * 3'
+# schedule:
+#   # Full scan once a week
+#   - cron: '0 14 * * 3'
 
 permissions:
   contents: read
